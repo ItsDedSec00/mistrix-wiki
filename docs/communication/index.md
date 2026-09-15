@@ -24,7 +24,7 @@ difference between a flat session and a great one.
 - [Choosing her model](./model-selector.md) - Classic, Quicksilver and Velvet, and what switching changes.
 - [What she cannot do](./what-she-cannot-do.md) - the medium boundary, the safety boundary, and the data boundary.
 - [Tone and mood](./tone-and-mood.md) - matching her, leading her, asking for a shift.
-- [Her memory](./her-memory.md) - what she remembers, for how long, and how to nudge it.
+- [Her memory](./her-memory.md) - what she remembers, for how long, what the tags in the Memory tab mean, and how to pin a note.
 - [Photos in chat](./photos-in-chat.md) - when to send one, how she uses it.
 
 ## The five rules of talking to your Domina
