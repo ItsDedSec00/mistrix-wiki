@@ -1,6 +1,6 @@
 ---
 title: Her Memory
-description: What the Domina remembers about you, for how long, and how to nudge her recall.
+description: What the Domina remembers about you, for how long, what the tags in the Memory tab mean, and how to nudge her recall.
 tags:
   - communication
   - memory
@@ -46,16 +46,85 @@ what happened.
 
 ## How far back she reaches
 
-Her notes do not expire. Nothing ages out on a timer, and an old note is
-not dropped because it is old.
+Her notes do not expire on their own. Nothing ages out on a timer, and
+an old note is not dropped because it is old. The one limit is a
+two-year cap: a note she wrote more than two years ago is cleared,
+unless you pinned it (see [Pinning a note](#pinning-a-note)).
 
 What limits her is attention, not storage. For each message the app
 hands her about a dozen of her notes: the ones closest to what you just
 said, with a nudge for recent ones. A note she did not get this turn is
 still there and can come back the moment you touch on the subject again.
 
-You can read what she is holding, and delete any of it, in the
-**Memory** tab of the chat panel.
+You can read what she is holding, delete any of it, and pin what
+matters most, in the **Memory** tab of the chat panel. The tab shows
+the newest of her notes and tells you when there are more than it
+lists; she can still search all of them on every message.
+
+## The tags in the Memory tab
+
+Every note in the **Memory** tab carries a small tag: the first four
+letters of its category. PERS is Personal, PREF is Preference, MILE is
+Milestone and OBSE is Observation.
+
+| Tag | Category | Colour | What it covers |
+|---|---|---|---|
+| PERS | Personal | blue | Facts about your life: your work, your situation, how you were feeling. The most sensitive kind. |
+| PREF | Preference | gold | What you said you like or dislike, and what you responded to. |
+| MILE | Milestone | green | Firsts, streaks, breakthroughs. Things worth bragging about. |
+| OBSE | Observation | grey | Patterns she noticed in how you behave: obedient, hesitant, eager. Also the catch-all when nothing else fits. |
+
+They are the same four categories you tick in
+[Expose](../features/expose.md) when you let her quote your notes
+there.
+
+### How she sorts them
+
+She picks the category herself, in the same moment she writes the
+note, from that fixed list of four. There is no rulebook behind it that
+says what counts as what, so the tag is her own reading of the word,
+and now and then she files something where you would not have.
+
+One correction happens after she writes: a note about your gear (a
+cage, a collar, cuffs, rope, a plug and the like) is filed as Personal
+even when she wrote it as an observation. Those facts should last like
+facts about you, not fade like a passing mood.
+
+### What the category changes
+
+The category decides how strongly the nudge for recent notes applies
+when the app picks her notes for a message. An observation stops
+counting as recent within days, a preference within weeks, and a
+personal fact or a milestone barely fades at all within a year. Each
+category also has its own group in what she reads, so personal facts
+and milestones are not competing with observations for the same slots.
+
+The category never deletes anything. As the section above says, a note
+stays until she or you remove it.
+
+### What you can change
+
+You can delete a note and you can pin it. You cannot change its
+category. If a note carries the wrong tag, delete it and mention the
+fact again in chat; she will write it down fresh.
+
+If you ever see the tag ASKE, that is not a note about you. It is a
+reminder she leaves herself that she already asked you about a subject,
+so she does not ask again, and it clears itself within a month.
+
+## Pinning a note
+
+Pin a note in the **Memory** tab and it becomes a standing fact: it is
+in front of her on every message, whatever you just said, and she can
+neither delete nor rewrite it. Only you can, by unpinning or deleting
+it. Pinned notes sit at the top of the list with a gold border.
+
+You can pin up to 10 notes per Domina. Past that, the app asks you to
+unpin one first.
+
+A pinned note is also exempt from the two-year cap: a note nobody
+pinned is cleared two years after she wrote it, a pinned one stays for
+as long as you keep the pin.
 
 ## What she remembers from chat
 

@@ -68,6 +68,11 @@ Nothing is ticked until you tick it. A memory that mentions one of your
 [hard limits](../fetishes/hard-limits.md) is never used, and memories
 from your chats with a different Domina are never used.
 
+These are the same tags her notes carry in the **Memory** tab of the
+chat panel.
+[Her memory](../communication/her-memory.md#the-tags-in-the-memory-tab)
+explains how she assigns them.
+
 ## How a post happens
 
 She has to warn you first. She names what she is holding over you and
