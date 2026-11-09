@@ -25,8 +25,8 @@ You create an account with an email address or with Google. A short confirmation
 - **Google sign-up** skips the verification email. You only pick a username ("Almost done") and tap **Continue**.
 - **The three required boxes:** you are at least 18, you accept the Terms of Service and Privacy Policy, and you understand that characters, messages and images are AI-generated and the content rules apply. The button stays disabled until all three are ticked.
 - **Your data options** are separate and optional:
-    - The first option lets Mistrix keep your chat data, encrypted, to improve the app. Off by default.
-    - The second option allows anonymised data to be used for training. Off by default, and it needs the first option.
+    - **Share session data to improve Mistrix.** Mistrix keeps your chat data, encrypted, to improve the app. Off by default.
+    - **Allow anonymised session data for model training.** Off by default, and it needs the first option.
     - **Show my username on leaderboards.** On by default. When it is off, you appear as Anonymous.
 - You can change all three later in **You** > **Data Privacy**. [Privacy](../safety/privacy.md) explains what is stored.
 - If you arrive through a friend's invite link, it is applied for you. See [Referrals](../plans/referrals.md).
