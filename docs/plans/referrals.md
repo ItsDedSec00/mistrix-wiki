@@ -27,7 +27,7 @@ Share your personal link. When a friend signs up with it and starts using Mistri
 
 ## Good to know
 
-- Invites that look like one person using several accounts do not count.
+- Referrals from the same person do not count.
 - The Shop shows the current Charms and discount. They can change.
 - Charms from referrals go into your wallet. See [Charms](charms.md).
 

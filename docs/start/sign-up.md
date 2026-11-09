@@ -30,7 +30,6 @@ You create an account with an email address or with Google. A short confirmation
     - **Show my username on leaderboards.** On by default. When it is off, you appear as Anonymous.
 - You can change all three later in **You** > **Data Privacy**. [Privacy](../safety/privacy.md) explains what is stored.
 - If you arrive through a friend's invite link, it is applied for you. See [Referrals](../plans/referrals.md).
-- When new accounts are paused, **Start** shows a "Registration closed" message. Existing accounts can still sign in.
 - Signing in later: **Sign in** on the start screen, or **Forgot password?** on the sign-in screen.
 
 ## Related

@@ -14,7 +14,7 @@ With Expose on, your Domina can put one of your secrets on a board: a photo you 
 
 - Expose is off until you switch on **Expose feature**. While it is off, no Domina posts anything about you.
 - When your Domina says in the chat that she puts something on the board, the post appears on your board. A line under her message confirms it, for example **She posted about you on your Expose board.**
-- A post can hold a photo, memories she quotes, her caption and her comment, as far as you allowed them in the settings. In the story she may speak as if others could see the board. They cannot.
+- A post can hold a photo, memories she quotes, her caption and her comment, as far as you allowed them in the settings.
 - A post stays until she takes it down, you delete it, or its photo no longer exists. Posts she took down stay under **History**.
 - If Mistrix refuses a post, nothing goes up and a line under her message says so.
 

@@ -112,8 +112,8 @@ plugins:
         communication/tone-and-mood.md: dominas/mood.md
         communication/what-she-cannot-do.md: chat/messages.md
         communication/writing-good-messages.md: chat/messages.md
-        features/app-blocking.md: features/companion-app.md
-        features/mistrix-bridge.md: features/companion-app.md
+        features/app-blocking.md: features/index.md
+        features/mistrix-bridge.md: features/index.md
         features/public-gallery.md: features/ai-studio.md
         features/routines-and-tasks.md: features/routines.md
         features/suggestions.md: help/account.md
@@ -203,7 +203,6 @@ nav:
       - Findom: features/findom.md
       - AI Studio: features/ai-studio.md
       - Notifications: features/notifications.md
-      - Companion app: features/companion-app.md
   - Safety:
       - safety/index.md
       - Safe word: safety/safe-word.md

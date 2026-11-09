@@ -21,7 +21,6 @@ The **Features** screen lists **Chastity** (**On** once Chaster is connected), *
 - [Findom](findom.md): tribute cards, Charms, and the Stop Findom button.
 - [AI Studio](ai-studio.md): make images and short clips from your own images and Domina portraits.
 - [Notifications](notifications.md): push messages, how often, quiet hours, and a delivery check.
-- [Companion app](companion-app.md): what the Android app can do to your phone, if you already have it.
 
 ## Related
 

@@ -12,7 +12,7 @@ You can delete your account at any time. It is erased 30 days after you ask, and
 
 ## Steps
 
-1. If you pay for Premium or Premium Plus, cancel the subscription first: **You** > **Plan** > **Subscription**.
+1. If you pay for Premium or Premium Plus, cancel the subscription yourself first: **You** > **Plan** > **Subscription**. If you forget, Mistrix stops it from renewing when you ask for deletion, and it ends with the period you already paid for.
 2. Want a copy of your data? Download it first: [Data export](data-export.md).
 3. Tap **Delete account** and read the confirmation. Tap **Confirm**.
 4. The app says **Account scheduled for deletion** and shows the date.

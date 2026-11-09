@@ -81,7 +81,7 @@ Yes. **You** > **Privacy & Security** > **Export my data**. See [Data export](da
 **You** > **Privacy & Security** > **Delete account**. You have 30 days to change your mind. See [Delete account](delete-account.md).
 
 ### Is there an app?
-Mistrix runs in your browser and you can add it to your home screen. On iPhone and iPad you need to add it to the home screen to get notifications. See [Notifications](../features/notifications.md) and [Companion app](../features/companion-app.md).
+Mistrix runs in your browser and you can add it to your home screen. On iPhone and iPad you need to add it to the home screen to get notifications. See [Notifications](../features/notifications.md).
 
 ## Related
 

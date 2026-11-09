@@ -50,4 +50,3 @@ In **Chat menu** > **Settings**, each Domina has two switches: **She may write f
 - [Contact](../dominas/contact.md)
 - [Routines](routines.md)
 - [Fix a problem](../help/fix-a-problem.md)
-- [Companion app](companion-app.md)
