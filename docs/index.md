@@ -1,6 +1,6 @@
 ---
-title: MISTRIX Wiki
-description: Help for the MISTRIX app: how the chat works, how to stop and limit anything, and where each setting is.
+title: "MISTRIX Wiki"
+description: "Help for the MISTRIX app: how the chat works, how to stop and limit anything, and where each setting is."
 hide:
   - navigation
   - toc

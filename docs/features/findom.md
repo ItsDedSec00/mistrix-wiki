@@ -1,6 +1,6 @@
 ---
-title: Findom
-description: Optional tribute in Charms: how demands work, your limits, and Stop Findom.
+title: "Findom"
+description: "Optional tribute in Charms: how demands work, your limits, and Stop Findom."
 tags: [Features, Free, Premium]
 ---
 # Findom

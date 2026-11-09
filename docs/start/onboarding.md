@@ -1,6 +1,6 @@
 ---
-title: Onboarding
-description: The setup steps after sign-up, in the order the app shows them: quiz, fetish map, inventory, safe word, PIN, profile, and your Domina.
+title: "Onboarding"
+description: "The setup steps after sign-up, in the order the app shows them: quiz, fetish map, inventory, safe word, PIN, profile, and your Domina."
 tags: [Start]
 ---
 # Onboarding

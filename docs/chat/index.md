@@ -1,6 +1,6 @@
 ---
-title: Chat
-description: How the chat screen works: who you talk to, writing, photos, timers, cards, editing and feedback.
+title: "Chat"
+description: "How the chat screen works: who you talk to, writing, photos, timers, cards, editing and feedback."
 tags: [Chat]
 ---
 # Chat

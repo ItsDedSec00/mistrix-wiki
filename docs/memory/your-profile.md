@@ -1,6 +1,6 @@
 ---
-title: Your profile
-description: Tell your Domina who you are: gender, anatomy, age, health limits and a short backstory.
+title: "Your profile"
+description: "Tell your Domina who you are: gender, anatomy, age, health limits and a short backstory."
 tags: [Memory]
 ---
 # Your profile

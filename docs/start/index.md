@@ -1,6 +1,6 @@
 ---
-title: Mistrix in 5 minutes
-description: The few things a new Mistrix user needs to know: who you talk to, how to stop, what stays private, and what costs Charms.
+title: "Mistrix in 5 minutes"
+description: "The few things a new Mistrix user needs to know: who you talk to, how to stop, what stays private, and what costs Charms."
 tags: [Start]
 ---
 # Mistrix in 5 minutes

@@ -1,6 +1,6 @@
 ---
-title: Account
-description: Your account screen: profile, username and account ID, password, signing out, and your data privacy choices.
+title: "Account"
+description: "Your account screen: profile, username and account ID, password, signing out, and your data privacy choices."
 tags: [Help]
 ---
 # Account
