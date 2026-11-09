@@ -1,105 +1,75 @@
 ---
 title: MISTRIX Wiki
-description: Help center for MISTRIX - how the Domina works, how sessions flow, how to communicate with her, and every feature in one place.
+description: Help for the MISTRIX app: how the chat works, how to stop and limit anything, and where each setting is.
 hide:
   - navigation
   - toc
 ---
 
-# Welcome to MISTRIX
+# MISTRIX Wiki
 
-MISTRIX is a dark-luxury app that runs personalised, written BDSM Domina
-sessions for adults. Your Domina assigns tasks, sets scenes, and gives
-directives, all in text. You read, you obey, you respond. She does not
-pretend to see or hear you in real time - she directs.
+New here? Read **[Mistrix in 5 minutes](start/index.md)** first. It covers everything you need to start.
 
-This wiki is the help center: how the app works, how to get the most
-out of your Domina, and what every button on every screen does.
+## Common questions
+
+- **How do I stop right now?** Open the **Chat menu** and press **Safe word**, or type your safe word on its own. [Safe word](safety/safe-word.md)
+- **How do I keep something out of the chat?** Mark it as a hard limit on your **Fetish map**. [Hard limits](safety/hard-limits.md)
+- **Can I switch a feature off?** Yes, any feature, at any time, yourself. [Turning things off](safety/turning-things-off.md)
+- **Who can read my chats?** Your chat history is encrypted with your PIN. [Privacy](safety/privacy.md)
+- **Is Mistrix free, and what are Charms?** There is a Free plan. Charms are the in-app currency, and you get some free every day. [Plans](plans/index.md), [Charms](plans/charms.md)
+
+Something not working? See [Fix a problem](help/fix-a-problem.md).
 
 ## Browse the wiki
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: __[Getting Started](getting-started/index.md)__
+-   :material-rocket-launch: __[Start](start/index.md)__
 
     ---
 
-    Your first hours in MISTRIX: account, PIN, fetishes, hard limits, the first session.
+    Sign up, age check, PIN, onboarding and your first chat.
 
--   :material-account-tie: __[The Domina](the-domina/index.md)__
-
-    ---
-
-    How she speaks, her personality and mood, presets vs personal Dominas.
-
--   :material-clipboard-list: __[Sessions](sessions/index.md)__
+-   :material-message-text: __[Chat](chat/index.md)__
 
     ---
 
-    Lifecycle, difficulty, photo uploads, the safe word, and what happens after.
+    Writing, photos, timers, cards, editing and feedback.
 
--   :material-heart-pulse: __[Fetishes](fetishes/index.md)__
-
-    ---
-
-    Interest levels, hard limits, and a guide to every category in the app.
-
--   :material-message-text: __[Communicating with Your Domina](communication/index.md)__
+-   :material-account-tie: __[Dominas](dominas/index.md)__
 
     ---
 
-    How she listens, what she can and cannot do, writing messages that get great results.
+    Presets, your own Domina, personality, severity, mood and contact.
 
--   :material-bag-personal: __[Inventory](inventory/index.md)__
-
-    ---
-
-    Toys, clothing, and accessories - what to add and how she uses them.
-
--   :material-shield-check: __[Safety](safety/index.md)__
+-   :material-brain: __[Memory](memory/index.md)__
 
     ---
 
-    Safe word, hard limits, the PIN model, aftercare. Start here if it's your first time.
+    What your Domina remembers, and the fields you fill in yourself.
 
 -   :material-star-circle: __[Features](features/index.md)__
 
     ---
 
-    AI Studio, routines, chastity, app blocking, Expose, Findom.
+    Routines, tasks, chastity, Expose, Findom, AI Studio and notifications.
 
--   :material-credit-card: __[Tiers & Charms](tiers/index.md)__
+-   :material-shield-check: __[Safety](safety/index.md)__
 
     ---
 
-    Free, Premium, Premium Plus, and the Charm wallet.
+    Safe word, Stop Findom, hard limits, switching off and privacy.
+
+-   :material-credit-card: __[Plans](plans/index.md)__
+
+    ---
+
+    Free, Premium, Premium Plus, Charms, the Shop, referrals and XP.
+
+-   :material-lifebuoy: __[Help](help/index.md)__
+
+    ---
+
+    Fix a problem, FAQ, glossary, your account and your data.
 
 </div>
-
-## Just want to be told what to do?
-
-If you want a quick start without reading every page:
-
-1. [Create your account](getting-started/create-account.md) and set a PIN.
-2. [Pick a starter Domina](getting-started/choose-a-domina.md).
-3. [Mark a few fetishes and your hard limits](getting-started/onboarding-walkthrough.md).
-4. [Start your first session](getting-started/your-first-session.md) and let her lead.
-5. Whenever you need to stop, [press the Safe Word button](safety/safe-word.md).
-
-## The three things you should know before anything else
-
-1. **The Safe Word is always one tap away.** No session can hide it.
-   When you tap it, the session ends, no XP, no questions. See
-   [Using the Safe Word](sessions/using-the-safe-word.md).
-2. **Your hard limits are absolute.** They override every fetish interest
-   you've ever set, and the Domina never works around them. See
-   [Hard Limits](fetishes/hard-limits.md).
-3. **Your PIN encrypts your sensitive data, and only you know it.** If
-   you lose it, that data is gone forever. See
-   [PIN and Privacy](safety/pin-and-privacy.md).
-
-## New here?
-
-Read [What is MISTRIX?](getting-started/what-is-mistrix.md) first. Five
-minutes, no commitment, and it explains the medium so the rest of the
-app makes sense.

@@ -1,5 +1,5 @@
 site_name: MISTRIX Wiki
-site_description: Help center for MISTRIX - the dark-luxury AI Domina PWA.
+site_description: Help for the MISTRIX app, how it works and where to find each setting.
 site_url: https://docs.mistrix.ai/
 repo_url: https://github.com/ItsDedSec00/mistrix-wiki
 repo_name: ItsDedSec00/mistrix-wiki
@@ -95,88 +95,140 @@ markdown_extensions:
 plugins:
   - search
   - tags
+  - redirects:
+      redirect_maps:
+        account/data-export.md: help/data-export.md
+        account/deleting-your-account.md: help/delete-account.md
+        account/index.md: help/account.md
+        account/password-reset.md: help/account.md
+        account/pin-and-recovery.md: start/pin.md
+        account/settings.md: help/account.md
+        communication/her-memory.md: memory/index.md
+        communication/how-she-listens.md: chat/messages.md
+        communication/index.md: chat/index.md
+        communication/model-selector.md: chat/messages.md
+        communication/photos-in-chat.md: chat/photos.md
+        communication/standing-rules.md: memory/response-directive.md
+        communication/tone-and-mood.md: dominas/mood.md
+        communication/what-she-cannot-do.md: chat/messages.md
+        communication/writing-good-messages.md: chat/messages.md
+        features/app-blocking.md: features/companion-app.md
+        features/mistrix-bridge.md: features/companion-app.md
+        features/public-gallery.md: features/ai-studio.md
+        features/routines-and-tasks.md: features/routines.md
+        features/suggestions.md: help/account.md
+        fetishes/bdsm.md: memory/fetish-map.md
+        fetishes/bodily-fluids.md: memory/fetish-map.md
+        fetishes/body-and-worship.md: memory/fetish-map.md
+        fetishes/clothing-and-fetish-wear.md: memory/fetish-map.md
+        fetishes/general-sex-acts.md: memory/fetish-map.md
+        fetishes/hard-limits.md: safety/hard-limits.md
+        fetishes/impact-and-pain-play.md: memory/fetish-map.md
+        fetishes/index.md: memory/fetish-map.md
+        fetishes/interest-levels.md: memory/fetish-map.md
+        fetishes/misc-kinks.md: memory/fetish-map.md
+        fetishes/power-exchange-and-fantasy.md: memory/fetish-map.md
+        getting-started/choose-a-domina.md: chat/choosing-a-domina.md
+        getting-started/create-account.md: start/sign-up.md
+        getting-started/index.md: start/index.md
+        getting-started/onboarding-walkthrough.md: start/onboarding.md
+        getting-started/what-is-mistrix.md: start/index.md
+        getting-started/your-first-session.md: start/first-chat.md
+        inventory/accessories.md: memory/inventory.md
+        inventory/clothing.md: memory/inventory.md
+        inventory/index.md: memory/inventory.md
+        inventory/toys.md: memory/inventory.md
+        safety/aftercare.md: safety/safe-word.md
+        safety/hard-limits-explained.md: safety/hard-limits.md
+        safety/pin-and-privacy.md: safety/privacy.md
+        sessions/after-the-session.md: chat/index.md
+        sessions/difficulty-levels.md: dominas/severity.md
+        sessions/index.md: chat/index.md
+        sessions/lifecycle.md: chat/messages.md
+        sessions/photo-uploads.md: chat/photos.md
+        sessions/using-the-safe-word.md: safety/safe-word.md
+        the-domina/character-shots.md: dominas/your-own-domina.md
+        the-domina/how-she-speaks.md: dominas/personality.md
+        the-domina/index.md: dominas/index.md
+        the-domina/personality-and-mood.md: dominas/personality.md
+        the-domina/preset-vs-personal.md: dominas/presets.md
+        tiers/charms.md: plans/charms.md
+        tiers/chat-limits.md: plans/free.md
+        tiers/comparison.md: plans/index.md
+        tiers/index.md: plans/index.md
+        tiers/referrals.md: plans/referrals.md
+        tiers/upgrading.md: plans/shop.md
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - getting-started/index.md
-      - What is MISTRIX?: getting-started/what-is-mistrix.md
-      - Create your account: getting-started/create-account.md
-      - Choose a Domina: getting-started/choose-a-domina.md
-      - Onboarding walkthrough: getting-started/onboarding-walkthrough.md
-      - Your first session: getting-started/your-first-session.md
-  - The Domina:
-      - the-domina/index.md
-      - How she speaks: the-domina/how-she-speaks.md
-      - Preset vs personal: the-domina/preset-vs-personal.md
-      - Personality and mood: the-domina/personality-and-mood.md
-      - Character shots: the-domina/character-shots.md
-  - Sessions:
-      - sessions/index.md
-      - Lifecycle: sessions/lifecycle.md
-      - Difficulty levels: sessions/difficulty-levels.md
-      - Photo uploads: sessions/photo-uploads.md
-      - Using the safe word: sessions/using-the-safe-word.md
-      - After the session: sessions/after-the-session.md
-  - Fetishes:
-      - fetishes/index.md
-      - Interest levels: fetishes/interest-levels.md
-      - Hard limits: fetishes/hard-limits.md
-      - General Sex Acts: fetishes/general-sex-acts.md
-      - Bodily Fluids: fetishes/bodily-fluids.md
-      - Body & Worship: fetishes/body-and-worship.md
-      - Clothing & Fetish Wear: fetishes/clothing-and-fetish-wear.md
-      - BDSM: fetishes/bdsm.md
-      - Impact & Pain Play: fetishes/impact-and-pain-play.md
-      - Power Exchange & Fantasy: fetishes/power-exchange-and-fantasy.md
-      - Misc Kinks: fetishes/misc-kinks.md
-  - Communication:
-      - communication/index.md
-      - How she listens: communication/how-she-listens.md
-      - Writing good messages: communication/writing-good-messages.md
-      - Goal and rules: communication/standing-rules.md
-      - Choosing her model: communication/model-selector.md
-      - What she cannot do: communication/what-she-cannot-do.md
-      - Tone and mood: communication/tone-and-mood.md
-      - Her memory: communication/her-memory.md
-      - Photos in chat: communication/photos-in-chat.md
-  - Inventory:
-      - inventory/index.md
-      - Toys: inventory/toys.md
-      - Clothing: inventory/clothing.md
-      - Accessories: inventory/accessories.md
+  - Start:
+      - start/index.md
+      - Sign up: start/sign-up.md
+      - Age check: start/age-check.md
+      - PIN: start/pin.md
+      - Onboarding: start/onboarding.md
+      - First chat: start/first-chat.md
+  - Chat:
+      - chat/index.md
+      - Dominas: chat/choosing-a-domina.md
+      - Messages: chat/messages.md
+      - Photos: chat/photos.md
+      - Timers: chat/timers.md
+      - Cards: chat/cards.md
+      - Edit & Regenerate: chat/edit-and-regenerate.md
+      - Feedback: chat/feedback.md
+  - Dominas:
+      - dominas/index.md
+      - Presets: dominas/presets.md
+      - Your own Domina: dominas/your-own-domina.md
+      - Personality: dominas/personality.md
+      - Severity: dominas/severity.md
+      - Mood: dominas/mood.md
+      - Contact: dominas/contact.md
+  - Memory:
+      - memory/index.md
+      - Context: memory/context.md
+      - Journal: memory/journal.md
+      - Key Memories: memory/key-memories.md
+      - Response Directive: memory/response-directive.md
+      - Fetish Map: memory/fetish-map.md
+      - Inventory: memory/inventory.md
+      - Your profile: memory/your-profile.md
+  - Features:
+      - features/index.md
+      - Routines: features/routines.md
+      - Tasks: features/tasks.md
+      - Chastity: features/chastity.md
+      - Expose: features/expose.md
+      - Findom: features/findom.md
+      - AI Studio: features/ai-studio.md
+      - Notifications: features/notifications.md
+      - Companion app: features/companion-app.md
   - Safety:
       - safety/index.md
       - Safe word: safety/safe-word.md
-      - Hard limits explained: safety/hard-limits-explained.md
-      - PIN and privacy: safety/pin-and-privacy.md
-      - Aftercare: safety/aftercare.md
-  - Features:
-      - features/index.md
-      - AI Studio: features/ai-studio.md
-      - Public gallery: features/public-gallery.md
-      - Routines and tasks: features/routines-and-tasks.md
-      - Chastity: features/chastity.md
-      - App blocking: features/app-blocking.md
-      - Expose: features/expose.md
-      - Findom: features/findom.md
-      - Notifications: features/notifications.md
-      - Mistrix Companion: features/mistrix-bridge.md
-      - Suggestions: features/suggestions.md
-  - Tiers:
-      - tiers/index.md
-      - Comparison: tiers/comparison.md
-      - Chat limits: tiers/chat-limits.md
-      - Charms: tiers/charms.md
-      - Referrals: tiers/referrals.md
-      - Upgrading: tiers/upgrading.md
-  - Account:
-      - account/index.md
-      - Settings: account/settings.md
-      - PIN and recovery: account/pin-and-recovery.md
-      - Data export: account/data-export.md
-      - Deleting your account: account/deleting-your-account.md
-      - Password reset: account/password-reset.md
+      - Stop Findom: safety/stop-findom.md
+      - Hard limits: safety/hard-limits.md
+      - Turning things off: safety/turning-things-off.md
+      - Not okay?: safety/not-okay.md
+      - Privacy: safety/privacy.md
+  - Plans:
+      - plans/index.md
+      - Free: plans/free.md
+      - Premium: plans/premium.md
+      - Premium Plus: plans/premium-plus.md
+      - Charms: plans/charms.md
+      - Shop: plans/shop.md
+      - Referrals: plans/referrals.md
+      - XP & Badges: plans/xp-and-badges.md
+  - Help:
+      - help/index.md
+      - Fix a problem: help/fix-a-problem.md
+      - FAQ: help/faq.md
+      - Glossary: help/glossary.md
+      - Account: help/account.md
+      - Data export: help/data-export.md
+      - Delete account: help/delete-account.md
 
 watch:
   - overrides
