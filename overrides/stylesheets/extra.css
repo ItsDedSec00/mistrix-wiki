@@ -1,78 +1,64 @@
-/* BLINK dark-luxury accent for the wiki.
-   Two schemes share one set of structural rules; per-scheme tokens
-   below decide the actual colours. */
+/* MISTRIX wiki theme.
+   One typeface (Inter) for everything except code, neutral text,
+   and a single accent colour (gold) for links and the current place.
+   Red is kept for warnings only. */
 
 :root {
-  --blink-gold: #eadbb0;          /* dark mode accent  */
-  --blink-gold-dim: #a89870;
-  --blink-gold-deep: #7a6a40;     /* light mode accent (4.5:1 on white) */
-  --blink-crimson: #9c2121;
-  --blink-text: #efe3c1;
-  --blink-white: #ffffff;
-  --blink-surface: #121212;
-  --blink-surface-2: #282828;
-  --blink-border: #3f3f3f;
-  --blink-border-gold: #4e4d4b;
+  --mx-gold: #e2cf98;             /* dark mode accent */
+  --mx-gold-deep: #7a6a40;        /* light mode accent (4.5:1 on white) */
+  --mx-red: #c25454;
+  --mx-red-deep: #9c2121;
 }
 
-/* ----- Dark scheme (default) ----- */
-[data-md-color-scheme="slate"] {
-  --md-default-bg-color: var(--blink-surface);
-  --md-default-fg-color: var(--blink-white);
-  --md-default-fg-color--light: rgba(255, 255, 255, 0.78);
-  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.6);
-  --md-default-fg-color--lightest: rgba(255, 255, 255, 0.4);
-  --md-typeset-color: var(--blink-white);
-  --md-typeset-a-color: var(--blink-gold);
-  --md-accent-fg-color: var(--blink-white);
-  --md-accent-fg-color--transparent: rgba(255, 255, 255, 0.1);
+/* ----- Dark scheme (default) -----
+   Two attribute selectors so these win over Material's own
+   [data-md-color-scheme][data-md-color-primary] link colours. */
+[data-md-color-scheme="slate"][data-md-color-primary] {
+  --md-default-bg-color: #121212;
+  --md-default-fg-color: #e8e6e1;
+  --md-default-fg-color--light: #c9c6bf;
+  --md-default-fg-color--lighter: #8e8a82;
+  --md-default-fg-color--lightest: #3a3a3a;
+  --md-typeset-color: #e8e6e1;
+  --md-typeset-a-color: var(--mx-gold);
+  --md-primary-fg-color: #000000;
+  --md-primary-bg-color: #e8e6e1;
+  --md-accent-fg-color: var(--mx-gold);
+  --md-accent-fg-color--transparent: rgba(226, 207, 152, 0.1);
+  --md-code-bg-color: #1e1e1e;
+  --md-code-fg-color: #e8e6e1;
 
-  --blink-heading: var(--blink-gold);
-  --blink-link-hover: var(--blink-white);
-  --blink-card-bg: var(--blink-surface-2);
-  --blink-card-border: var(--blink-border-gold);
-  --blink-card-border-hover: var(--blink-gold);
-  --blink-header-bg: #000000;
-  --blink-header-border: var(--blink-border-gold);
-  --blink-input-bg: var(--blink-surface-2);
-  --blink-button-bg: var(--blink-gold);
-  --blink-button-fg: #000000;
+  --mx-accent: var(--mx-gold);
+  --mx-warn: var(--mx-red);
+  --mx-panel: #1b1b1b;
+  --mx-line: #2e2e2e;
+  --mx-strong: #ffffff;
 }
 
 /* ----- Light scheme ----- */
-[data-md-color-scheme="default"] {
-  --md-default-bg-color: #fafaf5;
-  --md-default-fg-color: #1a1a1a;
-  --md-default-fg-color--light: #2e2e2e;
-  --md-default-fg-color--lighter: #555555;
-  --md-default-fg-color--lightest: #888888;
-  --md-typeset-color: #1a1a1a;
-  --md-typeset-a-color: var(--blink-gold-deep);
-  --md-accent-fg-color: #1a1a1a;
-  --md-accent-fg-color--transparent: rgba(0, 0, 0, 0.05);
+[data-md-color-scheme="default"][data-md-color-primary] {
+  --md-default-bg-color: #fafaf7;
+  --md-default-fg-color: #1d1d1b;
+  --md-default-fg-color--light: #3a3a37;
+  --md-default-fg-color--lighter: #6b6a66;
+  --md-default-fg-color--lightest: #dcdad4;
+  --md-typeset-color: #1d1d1b;
+  --md-typeset-a-color: var(--mx-gold-deep);
+  --md-primary-fg-color: #1a1a1a;
+  --md-primary-bg-color: #f2f0ea;
+  --md-accent-fg-color: var(--mx-gold-deep);
+  --md-accent-fg-color--transparent: rgba(122, 106, 64, 0.08);
+  --md-code-bg-color: #f0eee8;
+  --md-code-fg-color: #1d1d1b;
 
-  --blink-heading: var(--blink-gold-deep);
-  --blink-link-hover: #1a1a1a;
-  --blink-card-bg: #ffffff;
-  --blink-card-border: #d4c896;
-  --blink-card-border-hover: var(--blink-gold-deep);
-  --blink-header-bg: #1a1a1a;     /* keep header dark for brand even in light mode */
-  --blink-header-border: var(--blink-gold-deep);
-  --blink-input-bg: #ffffff;
-  --blink-button-bg: var(--blink-gold-deep);
-  --blink-button-fg: #ffffff;
+  --mx-accent: var(--mx-gold-deep);
+  --mx-warn: var(--mx-red-deep);
+  --mx-panel: #ffffff;
+  --mx-line: #e2dfd7;
+  --mx-strong: #000000;
 }
 
-/* ----- Shared structural rules (use scheme-local custom props) ----- */
-
-.md-header {
-  background-color: var(--blink-header-bg);
-  border-bottom: 1px solid var(--blink-header-border);
-}
-
-.md-tabs {
-  background-color: var(--blink-header-bg);
-}
+/* ----- Type: Inter everywhere, plain hierarchy ----- */
 
 .md-typeset h1,
 .md-typeset h2,
@@ -80,50 +66,107 @@
 .md-typeset h4,
 .md-typeset h5,
 .md-typeset h6 {
-  color: var(--blink-heading);
-  font-family: "Cormorant Garamond", serif;
-  letter-spacing: 0.01em;
+  color: var(--md-typeset-color);
+  font-family: var(--md-text-font-family);
+  letter-spacing: -0.01em;
+}
+.md-typeset h1 { font-weight: 700; font-size: 1.9em; margin-bottom: 0.8em; }
+.md-typeset h2 { font-weight: 600; font-size: 1.3em; }
+.md-typeset h3 { font-weight: 600; font-size: 1.05em; }
+
+.md-typeset strong { color: var(--mx-strong); font-weight: 600; }
+
+.md-typeset a { color: var(--md-typeset-a-color); }
+.md-typeset a:hover,
+.md-typeset a:focus { color: var(--md-typeset-a-color); text-decoration: underline; }
+
+/* ----- Header and tabs: one dark bar, current tab in the accent ----- */
+
+.md-header,
+.md-tabs {
+  background-color: #000000;
+  color: #e8e6e1;
+}
+.md-header { border-bottom: 1px solid #262626; box-shadow: none; }
+.md-tabs__link { opacity: 0.75; }
+.md-tabs__link--active,
+.md-tabs__link:hover { opacity: 1; color: var(--mx-gold); }
+
+/* ----- Navigation and table of contents ----- */
+
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active,
+.md-nav__link:hover { color: var(--mx-accent); }
+
+/* ----- Tags: quiet grey pills ----- */
+
+.md-typeset .md-tag {
+  background-color: transparent;
+  border: 1px solid var(--mx-line);
+  color: var(--md-default-fg-color--lighter);
+  font-weight: 500;
 }
 
-.md-typeset a {
-  color: var(--md-typeset-a-color);
-  transition: color 150ms ease;
-}
-.md-typeset a:hover {
-  color: var(--blink-link-hover);
-}
+/* ----- Admonitions: one neutral box. Info, note and question look the
+   same; warning and danger differ only by a red edge. ----- */
 
-/* Grid cards */
-.md-typeset .grid.cards > :is(ul,ol) > li,
-.md-typeset .grid.cards > .card {
-  background-color: var(--blink-card-bg);
-  border: 1px solid var(--blink-card-border);
-  border-radius: 0.75rem;
-  transition: transform 200ms ease, border-color 200ms ease;
+/* :is(.admonition, details)[class] matches the specificity of Material's
+   per-type rules (.md-typeset .admonition:is(.info, ...)) so these win. */
+.md-typeset :is(.admonition, details)[class] {
+  background-color: var(--mx-panel);
+  border: 1px solid var(--mx-line);
+  border-left: 3px solid var(--mx-accent);
+  border-radius: 0.5rem;
+  box-shadow: none;
+  font-size: 0.72rem;
 }
-
-.md-typeset .grid.cards > :is(ul,ol) > li:hover,
-.md-typeset .grid.cards > .card:hover {
-  transform: translateY(-2px);
-  border-color: var(--blink-card-border-hover);
-}
-
-/* Card titles inherit the link colours so hover behaviour matches. */
-.md-typeset .grid.cards a {
-  color: var(--md-typeset-a-color);
+.md-typeset :is(.admonition, details)[class] > :is(.admonition-title, summary) {
+  background-color: transparent;
+  color: var(--md-typeset-color);
   font-weight: 600;
 }
-.md-typeset .grid.cards a:hover {
-  color: var(--blink-link-hover);
+.md-typeset :is(.admonition, details)[class] > :is(.admonition-title, summary)::before {
+  background-color: var(--mx-accent);
+}
+.md-typeset :is(.admonition, details)[class] > summary::after {
+  background-color: var(--md-default-fg-color--lighter);
 }
 
-/* Primary button */
+.md-typeset :is(.admonition, details)[class]:is(.warning, .danger) {
+  border-left-color: var(--mx-warn);
+}
+.md-typeset :is(.admonition, details)[class]:is(.warning, .danger) > :is(.admonition-title, summary)::before {
+  background-color: var(--mx-warn);
+}
+
+/* ----- Cards on the home page ----- */
+
+.md-typeset .grid.cards > :is(ul, ol) > li,
+.md-typeset .grid.cards > .card {
+  background-color: var(--mx-panel);
+  border: 1px solid var(--mx-line);
+  border-radius: 0.6rem;
+  box-shadow: none;
+  transition: border-color 150ms ease;
+}
+.md-typeset .grid.cards > :is(ul, ol) > li:hover,
+.md-typeset .grid.cards > .card:hover {
+  border-color: var(--mx-accent);
+  box-shadow: none;
+}
+.md-typeset .grid.cards a { font-weight: 600; }
+.md-typeset .grid.cards .twemoji,
+.md-typeset .grid.cards svg { color: var(--mx-accent); fill: currentColor; }
+.md-typeset .grid.cards hr { border-color: var(--mx-line); }
+
+/* ----- Tables and code stay neutral ----- */
+
+.md-typeset table:not([class]) { border-color: var(--mx-line); box-shadow: none; }
+.md-typeset table:not([class]) th { background-color: var(--mx-panel); color: var(--md-typeset-color); }
+
+.md-search__input { background-color: rgba(255, 255, 255, 0.08); }
 .md-button--primary {
-  background-color: var(--blink-button-bg);
-  color: var(--blink-button-fg);
-  border-color: var(--blink-button-bg);
-}
-
-.md-search__input {
-  background-color: var(--blink-input-bg);
+  background-color: var(--mx-accent);
+  border-color: var(--mx-accent);
+  color: var(--md-default-bg-color);
 }
