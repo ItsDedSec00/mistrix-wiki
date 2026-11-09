@@ -47,7 +47,7 @@ Take a break. See [Not okay?](../safety/not-okay.md).
 Your private data is encrypted with it, and it is asked for again from time to time as part of the age check. See [PIN](../start/pin.md).
 
 ### I forgot my PIN.
-It cannot be recovered. The only way back in deletes your encrypted data. See [Fix a problem](fix-a-problem.md#i-forgot-my-pin).
+It cannot be recovered. The only way back in deletes your encrypted data. See [Fix a problem](fix-a-problem.md).
 
 ### Who can read my chats?
 Your chat history is encrypted with your PIN. What the server can and cannot read is described on one page. See [Privacy](../safety/privacy.md).

@@ -72,6 +72,7 @@ Find your problem, try the fix, follow the link if you need more.
     - If you see an error such as "The reply timed out. Try again.", send your message again, or tap **Regenerate** under the last reply.
     - If you are on the Free plan and a card says **Free messages used up** with a countdown, your free messages are spent. The next one is ready when the clock runs out. See [Free plan](../plans/free.md).
     - Still nothing? Check your connection, reload the app, and open the chat again.
+    - Still broken? Tap the bug icon (**Debug**) at the top of the chat and send us the file. See [Send us a report file](../chat/feedback.md#send-us-a-report-file).
 
     More: [Messages](../chat/messages.md), [Edit and regenerate](../chat/edit-and-regenerate.md).
 

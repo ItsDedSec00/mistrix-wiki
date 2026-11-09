@@ -1,6 +1,6 @@
 ---
 title: Feedback
-description: Rate a reply with a thumb, report a message, and choose whether to send your log with it.
+description: Rate a reply with a thumb, report a message, send us a report file, and see what ran behind a reply.
 tags: [Chat]
 ---
 # Feedback
@@ -43,6 +43,27 @@ Both sheets have a box **Also send my log for this message**.
 - If the log could not be sent, the rating or report still went through.
 
 The box only shows when logs can be received. If you do not see it, nothing is sent.
+
+## Send us a report file
+
+When something went wrong and you want us to look at it, you can save a file with what the app did recently.
+
+1. Tap the bug icon (**Debug**) at the top of the chat, next to the **Chat menu**.
+2. The dialog **Send us a report** opens.
+3. Tap **Download** to save the file, **Clear** to empty what the app has collected so far, or **Cancel**.
+4. Send the file to us through **You** > **Help & support** (Discord or email).
+
+- The file contains your conversation. Treat it like a chat log and send it only to us.
+- Your safe word and your sign-in details are removed from the file.
+- Nothing is sent by the button itself. The file stays on your device until you send it.
+
+## Trace
+
+**Chat menu** > **Settings** > **Trace** shows, under each reply, a read only view of what ran behind it: the reply itself, what your Domina wrote to memory, and which cards came up.
+
+- It is off at first. Switch it on if you are curious or want to describe a problem to us.
+- It only shows. It never changes what your Domina does.
+- It is a setting on this device.
 
 ## Good to know
 
